@@ -13,28 +13,43 @@ QBBoatshop.PoliceBoatSpawn2 = vector4(4489.18, -4499.84, 5.36, 102.88)
 
 --airplane garages
 QBBoatshop.Docks = {
-    ["Kjeller"] = {
-        label = "kjeller",
+    ["Lossantos"] = {
+        label = "LS Airport",
         coords = {
-            take = vector3(1743.27, 3299.07, 41.22),
-            put = vector4(1739.02, 3282.29, 41.72, 193.0)
+            take = vector3(-1242.11, -3393.16, 13.94),
+            put = vector4(-1266.29, -3371.81, 13.94, 331.94)
         }
     },
-    ["Cuba"] = {
-        label = "Cuba",
+    ["Cayo"] = {
+        label = "Cayo Perico Airport",
         coords = {
-            take = vector3(4456.26, -4465.64, 4.33),
-            put = vector4(4486.88, -4456.28, 4.83, 200.0)
+            take = vector3(4446.76, -4479.64, 4.3),
+            put = vector4(4453.99, -4493.63, 4.2, 121.08)
         }
     },
+    ["Sandy"] = {
+        label = "Sandy Shores Airport",
+        coords = {
+            take = vector3(1759.61, 3298.99, 42.17),
+            put = vector4(1742.57, 3274.8, 41.14, 118.45)
+        }
+    },
+    ["Grapeseed"] = {
+        label = "Grapeseed Airport",
+        coords = {
+            take = vector3(2122.79, 4784.93, 40.97),
+            put = vector4(2133.35, 4808.02, 41.15, 111.92)
+        }
+    },
+    
 }
 
 QBBoatshop.Depots = {
     [1] = {
-        label = "Flyvakten",
+        label = "Fort Zancudo Air Base",
         coords = {
-            take = vector3(-951.3, -3055.56, 13.95),
-            put = vector4(-957.24, -3031.83, 14.58, 60.0)
+            take = vector3(-1869.83, 2954.89, 32.81),
+            put = vector4(-1846.29, 2985.69, 32.81, 62.65)
         }
     },
 }
@@ -42,42 +57,42 @@ QBBoatshop.Depots = {
 QBBoatshop.Locations = {
     ["berths"] = {
         [1] = {
-            ["boatModel"] = "cuban800",
+            ["boatModel"] = "microlight",
             ["coords"] = {
-                ["boat"] = vector4(-962.28, -2931.13, 14.58, 152.5),
-                ["buy"] = vector3(-963.48, -2937.67, 13.95),
+                ["boat"] = vector4(-1250.15, -2226.85, 13.35, 187.97),
+                ["buy"] = vector3(-1249.63, -2228.85, 13.94),
             },
             ["inUse"] = false
         },
         [2] = {
-            ["boatModel"] = "luxor",
+            ["boatModel"] = "velum2",
             ["coords"] = {
-                ["boat"] = vector4(-943.07, -2996.3, 14.55, 60.0),
-                ["buy"] = vector3(-953.99, -2994.25, 13.95),
+                ["boat"] = vector4(-1232.13, -2227.46, 14.88, 149.27),
+                ["buy"] = vector3(-1235.08, -2232.59, 13.94),
             },
             ["inUse"] = false
         },
         [3] = {
-            ["boatModel"] = "Mammatus",
+            ["boatModel"] = "seabreeze",
             ["coords"] = {
-                ["boat"] = vector4(-960.0, -2951.49, 14.1, 150.5),
-                ["buy"] = vector3(-960.44, -2957.6, 13.95),
+                ["boat"] = vector4(-1216.33, -2238.58, 13.89, 131.78),
+                ["buy"] = vector3(-1219.75, -2241.67, 13.94),
             },
             ["inUse"] = false
         },
         [4] = {
             ["boatModel"] = "Vestra",
             ["coords"] = {
-                ["boat"] = vector4(-976.78, -2943.24, 14.13, 150.5),
-                ["buy"] = vector3(-977.15, -2949.09, 13.95),
+                ["boat"] = vector4(-1200.87, -2246.42, 14.13, 163.95),
+                ["buy"] = vector3(-1202.29, -2251.12, 13.94),
             },
             ["inUse"] = false
         },
         [5] = {
-            ["boatModel"] = "velum2",
+            ["boatModel"] = "miljet",
             ["coords"] = {
-                ["boat"] = vector4(-941.57, -2979.1, 14.88, 90.5),
-                ["buy"] = vector3(-949.88, -2981.75, 13.95),
+                ["boat"] = vector4(-1184.25, -2262.52, 15.11, 110.97),
+                ["buy"] = vector3(-1196.59, -2267.21, 13.94),
             },
             ["inUse"] = false
         },
@@ -85,31 +100,31 @@ QBBoatshop.Locations = {
 }
 --prices
 QBBoatshop.ShopBoats = {
-    ["cuban800"] = {
-        ["model"] = "cuban800",
-        ["label"] = "cuban800",
-        ["price"] = 500000
+    ["microlight"] = {
+        ["model"] = "microlight",
+        ["label"] = "Micro Light",
+        ["price"] = 180000
     },
-    ["luxor"] = {
-        ["model"] = "luxor",
-        ["label"] = "luxor",
-        ["price"] = 10000000
+    ["velum2"] = {
+        ["model"] = "velum2",
+        ["label"] = "Velum",
+        ["price"] = 340000
     },
-    ["Mammatus"] = {
-        ["model"] = "Mammatus",
-        ["label"] = "Mammatus",
-        ["price"] = 800000
+    ["seabreeze"] = {
+        ["model"] = "seabreeze",
+        ["label"] = "Sea Breeze",
+        ["price"] = 600000
     },
     ["Vestra"] = {
         ["model"] = "Vestra",
         ["label"] = "Vestra",
-        ["price"] = 3000000
+        ["price"] = 800000
     },
-    ["velum2"] = {
-        ["model"] = "velum2",
-        ["label"] = "velum2",
-        ["price"] = 1300000
+    ["miljet"] = {
+        ["model"] = "miljet",
+        ["label"] = "Miljet",
+        ["price"] = 2800000
     }
 }
 
-QBBoatshop.SpawnVehicle = vector4(-985.83, -2971.65, 14.55, 60.0)
+QBBoatshop.SpawnVehicle = vector4(-1230.4, -2293.37, 14.13, 61.28)

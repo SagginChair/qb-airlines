@@ -146,6 +146,6 @@ Citizen.CreateThread(function()
     SetBlipColour(BoatShop, 3)
 
     BeginTextCommandSetBlipName("STRING")
-    AddTextComponentSubstringPlayerName("Flytorget")
+    AddTextComponentSubstringPlayerName("Airplane Shop")
     EndTextCommandSetBlipName(BoatShop)
 end)
