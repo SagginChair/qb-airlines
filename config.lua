@@ -41,15 +41,22 @@ QBBoatshop.Docks = {
             put = vector4(2133.35, 4808.02, 41.15, 111.92)
         }
     },
+    ["Fortzancudo"] = {
+    label = "Fort Zancudo Air Base",
+    coords = {
+        take = vector3(-1869.83, 2954.89, 32.81),
+        put = vector4(-1846.29, 2985.69, 32.81, 62.65)
+    }
+},
     
 }
 
 QBBoatshop.Depots = {
     [1] = {
-        label = "Fort Zancudo Air Base",
+        label = "Airplane Impound",
         coords = {
-            take = vector3(-1869.83, 2954.89, 32.81),
-            put = vector4(-1846.29, 2985.69, 32.81, 62.65)
+            take = vector3(-950.3, -3056.34, 13.95),
+            put = vector4(-981.78, -3084.1, 14.13, 82.87)
         }
     },
 }
